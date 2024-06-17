@@ -1,0 +1,62 @@
+body{
+  background-color: rgb(202, 187, 137);
+  color: rgb(255, 180, 40);
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* ---------------------------------------------------- */
+/* Header: */
+.oben{
+  border-bottom: solid black 10px;
+display: flex;
+justify-content: flex-end;
+height: 10vh;
+align-items: center;
+
+}
+.oben-i{
+  font-size: 50px;
+  margin-right: 10px;
+  color:rgb(121, 24, 11)
+  
+}
+
+.headersec{
+  border-left: solid rgb(0, 0, 0) 10px;
+  height: 10vh;
+  margin-right:6px ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+padding-left: 20px;
+}
+
+/* --------------------------------------------------- */
+/* Hero: */
+
+.port{
+  font-size: 400px;
+  font-family: 'Lakki Reddy', handwriting;
+
+}
+
+.hero{
+  border-right: solid 10px rgb(0, 0, 0);
+  background-color: rgb(121, 24, 11);
+  display: flex;
+  justify-content: flex-start;
+  max-width: 95vw;
+  height: 90vh;
+  flex-wrap: wrap;
+}
+
+.herosec{
+  display: flex;
+}
+
+/* --------------------------------------------------------- */
+
+
+/* für die anderen sachen */
+/* font-family: 'Yomogi', handwriting; */
